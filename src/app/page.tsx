@@ -11,7 +11,7 @@ import ImageKitchen from "@/images/kitchen.webp"
 import ImageBlue from "@/images/blue.webp"
 import ImageSchedules from "@/images/schedules.webp"
 // import ImageGreenSofa from "@/images/greensofa.webp"
-import ImageTry from "@/images/try.webp"
+// import ImageTry from "@/images/try.webp"
 
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
             <div className="w-md-70 w-lg-60 w-xl-50 mx-auto">
               <div className="text-center fs-20 fs-md-22 fs-xl-24 fw-500 mb-24">
                 Streamline your
-                workflow and unlock your studio's potential. Start your 7 day trial
+                workflow and unlock your studios potential. Start your 7 day trial
               </div>
               <form>
                 <div className="FormSubscribe_form__SPl7y mx-auto">
@@ -639,7 +639,18 @@ export default function Home() {
           </div> */}
           <div className="nn-block-cta-banner-3 py-48 py-lg-60 py-xl-96">
             <div className="container-xl">
-              <div className="BlockCTABanner3_body__oh1Gt"><img alt="Assistance" loading="lazy" width={3478} height={2196} decoding="async" data-nimg={1} className="BlockCTABanner3_bg__Bw7cM" style={{color: 'transparent'}} srcSet="https://programa.design/au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Febmdxr1o%2Fproduction%2F26d98a8e5ec5c95faa80df6279b626271a0d294a-3478x2196.jpg&w=3840&q=75 1x" src="https://programa.design/au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Febmdxr1o%2Fproduction%2F26d98a8e5ec5c95faa80df6279b626271a0d294a-3478x2196.jpg&w=3840&q=75" />
+              <div className="BlockCTABanner3_body__oh1Gt">
+                {/* <img 
+                  alt="Assistance" 
+                  loading="lazy" 
+                  width={3478} 
+                  height={2196} 
+                  decoding="async" 
+                  data-nimg={1} 
+                  className="BlockCTABanner3_bg__Bw7cM" 
+                  style={{color: 'transparent'}} 
+                  src="https://programa.design/au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Febmdxr1o%2Fproduction%2F26d98a8e5ec5c95faa80df6279b626271a0d294a-3478x2196.jpg&w=3840&q=75" 
+                /> */}
                 <div className="BlockCTABanner3_content__UFWse row flex-column flex-md-row justify-content-between align-items-start cg-32 rg-24 p-16 p-lg-24 p-xl-32">
                   <div className="col-12 col-md-8 col-lg-6 col-xl-5">
                     <h2 className="fs-17 fs-lg-24 lh-140 mb-0">Wherever you are, we’re here to help
@@ -655,37 +666,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="BlockFormSubscribe_block___7CQJ py-32 py-lg-36">
-          <Image 
-            alt="Try Programa for free with a 7 day trial" 
-            loading="lazy" 
-            width={2425} 
-            height={1474} 
-            decoding="async" 
-            data-nimg={1} 
-            className="BlockFormSubscribe_bg__nG_vM" 
-            style={{color: 'transparent'}} 
-            src={ImageTry} 
-          />
-          <div className="BlockFormSubscribe_container__cQJgb container-xl mw-xl-1440c d-flex flex-column flex-lg-row justify-content-between rg-16 cg-16">
-            <div>
-              <h2 className="fs-17 fs-lg-24 mb-0">Try Programa for free with a 7 day trial</h2>
-              <div className="fs-17 fs-lg-24">Join the world’s best studios</div>
-            </div>
-            <div>
-              <form>
-                <div className="FormSubscribe_form__SPl7y">
-                  <div className="form-field-input FormSubscribe_input__ADVpp">
-                    <input id="form_email" className="form-control BlockFormSubscribe_input__GqZbB border-0" name="email" type="email" placeholder="Enter your email" />
-                  </div>
-                  <button type="submit" className="FormSubscribe_btn__2eO17 btn btn-primary no-size">
-                    Get started
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+
       </main>
     </div>
   );

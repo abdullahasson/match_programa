@@ -1,3 +1,6 @@
+// Next
+import Link from "next/link";
+// Logo
 import Logo from "../../public/Logo"
 
 const Header = () => {
@@ -139,12 +142,19 @@ const Header = () => {
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li className="Header_menuItem__mh_9T"><a className="Header_menuItemLink__Ots1K no-size" target="_self" href="/au/pricing">Pricing</a></li>
+                                                <li className="Header_menuItem__mh_9T">
+                                                    <Link href="/pricing">Pricing</Link>
+                                                </li>
                                                 <li className="Header_menuItem__mh_9T Header_menuItemHasChildren__cSOMC">
-                                                    <button className="Header_menuItemLink__Ots1K no-size btn btn-link">Resources</button><button type="button" className="Header_btnToggleSubMenu__7RG1W btn p-4 d-lg-none"><svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 2.66699L11.3333 8.00031L6 13.3337" stroke="currentColor" strokeWidth="0.666667" strokeLinecap="round" strokeLinejoin="round">
-                                                        </path>
-                                                    </svg></button>
+                                                    <button className="Header_menuItemLink__Ots1K no-size btn btn-link">
+                                                        Resources
+                                                    </button>
+                                                    <button type="button" className="Header_btnToggleSubMenu__7RG1W btn p-4 d-lg-none">
+                                                        <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6 2.66699L11.3333 8.00031L6 13.3337" stroke="currentColor" strokeWidth="0.666667" strokeLinecap="round" strokeLinejoin="round">
+                                                            </path>
+                                                        </svg>
+                                                    </button>
                                                     <ul className="Header_menuItemSubSimple__MqvZH p-lg-4">
                                                         <li className="Header_menuItem__mh_9T"><a className="Header_menuItemLink__Ots1K no-size" target="_self" href="/au/blog">Blog<div className="Header_menuItemLinkIntro__CUZfa">
                                                             Company news, product updates, and more.
